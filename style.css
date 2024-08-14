@@ -112,3 +112,13 @@ body {
 .square-2 {
   right: 74px;
 }
+
+.ears {
+  top: 0;
+  left: 95px;
+  border-bottom: 12px solid var(--yellow);
+  border-left: 6px solid var(--black);
+  border-right: 6px solid var(--black);
+  width: 11px;
+  transform: rotate(180deg);
+}
