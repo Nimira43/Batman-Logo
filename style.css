@@ -28,10 +28,12 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  overflow: hidden;
 }
 
-.logo {
+.logo, .oval-1, .oval-2, .oval-3, .oval-4, .oval-5 , .oval-6,
+.square-1, .square-2, .ears {
   position: absolute;
 }
 
@@ -40,6 +42,40 @@ body {
   height: 112px;
   background-color: var(--black);
   border-radius: var(--bord-r);
-
 }
 
+.oval-1, .oval-2, .oval-3, .oval-4 {
+  background-color: var(--yellow);
+  height: 70px;
+  border-radius: var(--bord-r);
+}
+
+.oval-1, .oval-2 {
+  width: 33px;
+  top: 67px;
+}
+
+.oval-1 {
+  left: 44px;
+  transform: rotate(-41deg);
+}
+
+.oval-2 {
+  right: 44px;
+  transform: rotate(41deg);
+}
+
+.oval-3, .oval-4 {
+  width: 38px;
+  top: 73px
+}
+
+.oval-3 {
+  left: 68px;
+  transform: rotate(-15%);
+}
+
+.oval-4 {
+  right: 68px;
+  transform: rotate(15%);
+}
