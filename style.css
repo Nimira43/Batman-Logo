@@ -1,3 +1,9 @@
+:root {
+  --yellow: #fdff00;
+  --black: #000;
+  --bord-r: 50%;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -13,3 +19,27 @@ body {
   align-items: center;
   overflow: hidden;
 }
+
+.oval {
+  width: 230px;
+  height: 130px;
+  background-color: var(--yellow);
+  border-radius: var(--bord-r);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo {
+  width: 212px;
+  height: 112px;
+  background-color: var(--black);
+  border-radius: var(--bord-r);
+
+}
+
