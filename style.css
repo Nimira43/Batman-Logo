@@ -44,15 +44,30 @@ body {
   border-radius: var(--bord-r);
 }
 
-.oval-1, .oval-2, .oval-3, .oval-4 {
+.oval-1, .oval-2, .oval-3, 
+.oval-4, .oval-5, .oval-6 {
   background-color: var(--yellow);
-  height: 70px;
   border-radius: var(--bord-r);
+}
+
+.oval-1, .oval-2, .oval-3, .oval-4 {
+  height: 70px;
 }
 
 .oval-1, .oval-2 {
   width: 33px;
   top: 67px;
+}
+
+.oval-3, .oval-4 {
+  width: 38px;
+  top: 73px;
+}
+
+.oval-5, .oval-6 { 
+  width: 37px;
+  height: 40px;
+  top: 0;
 }
 
 .oval-1 {
@@ -65,17 +80,35 @@ body {
   transform: rotate(41deg);
 }
 
-.oval-3, .oval-4 {
-  width: 38px;
-  top: 73px
-}
-
 .oval-3 {
   left: 68px;
-  transform: rotate(-15%);
+  transform: rotate(-15deg);
 }
 
 .oval-4 {
   right: 68px;
-  transform: rotate(15%);
+  transform: rotate(15deg);
+}
+
+.oval-5 {
+  left: 57px;
+}
+
+.oval-6 {
+  right: 57px;
+}
+
+.square-1, .square-2 {
+  height: 20px;
+  width: 20px;
+  background-color: var(--yellow);
+  top: 0;
+}
+
+.square-1 {
+  left: 74px;
+}
+
+.square-2 {
+  right: 74px;
 }
